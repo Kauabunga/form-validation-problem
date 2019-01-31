@@ -11,5 +11,9 @@
   "rules": {
     "react/jsx-filename-extension": 0,
     "prettier/prettier": "error"
+  },
+  "globals": {
+    "it": true,
+    "expect": true
   }
 }
