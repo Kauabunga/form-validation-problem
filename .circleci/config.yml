@@ -10,7 +10,7 @@ nightly:
               - develop
 
 jobs:
-  test:
+  build:
     docker:
       - image: circleci/node:8
 
