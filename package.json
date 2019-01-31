@@ -16,11 +16,8 @@
     "type": "git",
     "url": "git+https://github.com/Kauabunga/form-validation-problem.git"
   },
-  "keywords": [
-    "hola"
-  ],
   "author": "Carson Bruce",
-  "license": "ISC",
+  "license": "UNLICENCED",
   "bugs": {
     "url": "https://github.com/Kauabunga/form-validation-problem/issues"
   },
@@ -30,6 +27,8 @@
     "@babel/preset-env": "^7.3.1",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.0.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
     "eslint": "^5.12.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.0.0",
@@ -38,17 +37,17 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "husky": "^1.3.1",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^24.0.0",
     "lint-staged": "^8.1.1",
-    "prettier": "^1.16.3"
+    "prettier": "^1.16.3",
+    "react-test-renderer": "^16.7.0"
   },
   "dependencies": {
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.8.0",
+    "@zeit/next-css": "^1.0.1",
     "next": "^7.0.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-test-renderer": "^16.7.0"
+    "react-dom": "^16.7.0"
   },
   "husky": {
     "hooks": {
