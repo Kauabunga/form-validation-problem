@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the global styles and check it against a snapshot 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "data": "
+
+    /*
+        -------------------------------------------------------------------
+        Page prettiness
+        -------------------------------------------------------------------
+    */
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        color: #333;
+        background: #ddd;
+        margin: 2em;
+    }
+
+    h1, h3 {
+        color: #576774;
+    }
+
+    h1:first-child {
+        margin-top: 0;
+    }
+
+    /*
+        -------------------------------------------------------------------
+        Form styles
+        -------------------------------------------------------------------
+    */
+    form {
+        background: #fff;
+        padding: 1em 1.25em;
+        border: solid 1px #ccc;
+        border-radius: .25em;
+    }
+
+    label {
+        vertical-align: middle;
+    }
+    /*
+        Note: Don&#x27;t change font-family on password inputs,
+        unless you want tiny •••• bullets :)
+    */
+    input[type=&#x27;text&#x27;],
+    input[type=&#x27;submit&#x27;] {
+        font-family: sans-serif;
+    }
+
+    input[type=&#x27;text&#x27;],
+    input[type=&#x27;password&#x27;],
+    input[type=&#x27;submit&#x27;],
+    select {
+        font-size: 1em;
+        border-radius: .25em;
+        -webkit-appearance: none;
+    }
+
+    input[type=&#x27;text&#x27;],
+    input[type=&#x27;password&#x27;] {
+        border: solid 1px #ddd;
+        padding: .5em .5em;
+        color: #555;
+        width: 16em;
+    }
+
+    input[type=&#x27;submit&#x27;] {
+        border: solid 1px transparent;
+        background: #0B77DB;
+        color: #fff;
+        font-size: .875em;
+        padding: .75em 1em;
+        cursor: pointer;
+    }
+
+    input[type=&#x27;submit&#x27;]:hover {
+        background: #3C9AA7;
+    }
+
+    input[type=&#x27;submit&#x27;]:focus {
+        background: #3D6EAC;
+    }
+
+
+
+
+    input[type=&#x27;text&#x27;]:focus,
+    input[type=&#x27;password&#x27;]:focus,
+    input[type=&#x27;submit&#x27;]:focus {
+        outline: none;
+        border-color: #0B77DB;
+        box-shadow: 0 0 6px rgba(48, 140, 255, 0.25);
+    }
+
+    input[type=&#x27;submit&#x27;]:active {
+        background: #333;
+        border-color: #333;
+    }
+
+
+
+
+    label + input[type=checkbox] {
+        margin-left: 1em;
+    }
+
+    select {
+        width: 17em;
+    }
+
+    fieldset {
+        border: none;
+        padding: 0;
+    }
+
+    fieldset + fieldset {
+        border-top: solid 1px #eee;
+    }
+
+    .label {
+        width: 10em;
+        display: inline-block;
+    }
+
+    /*
+        -------------------------------------------------------------------
+        Error states
+        -------------------------------------------------------------------
+
+        An error class to forms that fail your validation:
+
+        &lt;p class=&#x27;error&#x27;&gt;
+            &lt;label for=&#x27;field&#x27;&gt;&lt;/label&gt;
+            &lt;input id=&#x27;field&#x27; type=&#x27;text&#x27; value=&#x27;foo&#x27;&gt;
+        &lt;/p&gt;
+    */
+    .error &gt; input,
+    .error &gt; label {
+        color: red;
+    }
+
+    .error &gt; input {
+        border-color: red;
+    }
+
+  ",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "text",
+      },
+    ],
+    "name": "style",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "style",
+    "x-attribsNamespace": Object {},
+    "x-attribsPrefix": Object {},
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
