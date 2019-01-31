@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "name": "carsonbruce-form-validation-problem",
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+}
