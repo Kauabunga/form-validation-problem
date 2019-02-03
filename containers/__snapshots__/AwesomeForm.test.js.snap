@@ -104,14 +104,15 @@ exports[`AwesomeForm It should render the initial view of the form 1`] = `
     </p>
     <p
       class=""
+      id="animal"
     >
-      <label
+      <span
         class="label"
       >
         <span>
           Animal
         </span>
-      </label>
+      </span>
       <label
         for="bear"
       >

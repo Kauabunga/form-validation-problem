@@ -104,14 +104,15 @@ exports[`should render the index and check it against a snapshot 1`] = `
     </p>
     <p
       class=""
+      id="animal"
     >
-      <label
+      <span
         class="label"
       >
         <span>
           Animal
         </span>
-      </label>
+      </span>
       <label
         for="bear"
       >

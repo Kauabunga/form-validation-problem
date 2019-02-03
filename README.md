@@ -29,16 +29,16 @@
 
 ## Technology used
 
-Next.js (Universal React framework)
-React (Web component library)
-Node (Javascript runtime)
-Git (Source version control)
-Now (Serverless deployment service)
+- Next.js (Universal React framework)
+- React (Web component library)
+- Node (Javascript runtime)
+- Git (Source version control)
+- Now (Serverless deployment service)
 
 ## Deployment to now
 
-`npm i -g now`
-`now`
+- `npm i -g now`
+- `now`
 
 # [Form validation problem](https://springload.github.io/form-validation-problem/)
 
