@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render the index and check it against a snapshot 1`] = `
+exports[`AwesomeForm It should render the initial view of the form 1`] = `
 <form
   action="/api/awesome"
   method="post"

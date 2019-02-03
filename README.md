@@ -1,5 +1,45 @@
 [![CircleCI](https://circleci.com/gh/Kauabunga/form-validation-problem.svg?style=svg)](https://circleci.com/gh/Kauabunga/form-validation-problem)
 
+[https://carsonbruce-form-validation-problem-9kt9kh16e.now.sh/](https://carsonbruce-form-validation-problem-9kt9kh16e.now.sh/)
+
+# Carson Bruce - SpringLoad form validation problem
+
+## Problem goals / Assumptions
+
+- Introduction to Next.js + Now
+- Introduction to React 16.7 hooks
+- Setup basic pipelines, linting, and test frameworks as if it was a real project
+
+## Software dependencies
+
+- [Git](https://try.github.io/levels/1/challenges/1)
+- [Nodejs v8](https://nodejs.org/)
+
+## Getting your own local environment up and running
+
+1. Open a terminal
+2. Clone git repository `git@github.com:Kauabunga/form-validation-problem.git`
+3. Go into repository dir `cd form-validation-problem`
+4. Make sure you are on the develop branch `git checkout develop`
+5. Check node version is 8.X.X `node --version`
+6. Check npm version is 6.X.X `npm --version` `npm i -g npm`
+7. Install dependencies `npm install`
+8. Run all the unit tests `npm test`
+9. Start development server `npm run dev`
+
+## Technology used
+
+Next.js (Universal React framework)
+React (Web component library)
+Node (Javascript runtime)
+Git (Source version control)
+Now (Serverless deployment service)
+
+## Deployment to now
+
+`npm i -g now`
+`now`
+
 # [Form validation problem](https://springload.github.io/form-validation-problem/)
 
 We've created this problem to evaluate how developers tackle a real-world problem. If you've been assigned this problem you should spend around **2 hours** working on it. The last thing we want you to do is toil away for days on end!
